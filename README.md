@@ -6,3 +6,14 @@ First Come First Serve (FCFS) is an operating system scheduling algorithm that a
 As the process enters the ready queue, its PCB (Process Control Block) is linked with the tail of the queue and, when the CPU becomes free, it should be assigned to the process at the beginning of the queue.
 
 Here is an example of five processes arriving at different times. Each process has a different burst time.
+
+
+How to compute below times in Round Robin using a program?
+
+1. Completion Time: Time at which process completes its execution.
+2. Turn Around Time: Time Difference between completion time and arrival time.
+
+           Turn Around Time = Completion Time – Arrival Time
+3. Waiting Time(W.T): Time Difference between turn around time and burst time.
+
+           Waiting Time = Turn Around Time – Burst Time
